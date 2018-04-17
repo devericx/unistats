@@ -1,0 +1,175 @@
+html {
+    padding: 1rem;
+}
+
+.ba {
+    border: 1px black solid;
+}
+
+.ma0 {
+    margin: 0;
+}
+
+.mb-small {
+    margin-bottom: 0.125rem;
+}
+
+.mb-med {
+    margin-bottom: 0.25rem;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    margin: 1rem 0 6rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#navItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: auto;
+    h3:last-of-type {
+        margin-left: 2rem;
+    }
+}
+
+.row {
+    margin: 0 0 2rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    margin: 0 0 2rem 0;
+    p:last-of-type {
+        margin: 0;
+    }
+}
+
+.profile {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 35px 30px 30px;
+    border-radius: 8px;
+}
+
+.stat {
+    width: 100%;
+    margin: 0 0 1rem 0;
+
+    p:last-of-type {
+        margin: 0;
+    }
+}
+
+.statTable {
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+    tr {
+        padding: 0;
+
+        td {
+            padding: 0;
+            margin: 0;
+        }
+
+        td:first-of-type {
+            width: 6rem;
+        }
+
+        td:nth-of-type(2) {
+            width: 8rem;
+        }
+    }
+}
+
+.toggle {
+    text-align: right;
+    margin: 2em 0 0 0;
+}
+
+.toggle:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 720px) {
+    html {
+        padding: 2rem;
+    }
+
+    #navItems {
+        h3:last-of-type {
+            margin-left: 4rem;
+        }
+    }
+
+    .profile {
+        min-width: 468px;
+    }
+
+    .row {
+        margin: 0 0 4.5rem 0;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .block {
+        margin: 0 2.5rem 3rem 0;
+    }
+
+    .profile {
+        padding: 40px 40px 35px;
+        max-width: 468px;
+    }
+
+    .row {
+        margin: 0 0 3rem 0;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 1064px) {
+    .nav {
+        margin: 5rem 0 6rem 0;
+    }
+}

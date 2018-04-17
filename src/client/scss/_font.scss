@@ -1,0 +1,80 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+        sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+    color: $grey;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0 0 1rem 0;
+    font-weight: 300;
+}
+
+h2:first-of-type {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.f1 {
+    font-size: 1.333rem;
+    line-height: 1.333 * 16 + 8px;
+}
+
+.f2 {
+    font-size: 1rem;
+    line-height: 1 * 16 + 8px;
+}
+
+.f3 {
+    font-size: 0.75rem;
+    line-height: 0.75 * 16 + 8px;
+}
+
+.f4 {
+    font-size: 0.563rem;
+    line-height: 0.563 * 16 + 8px;
+}
+
+@media screen and (min-width: 720px) {
+    .f1 {
+        font-size: 1.777rem;
+        line-height: 1.777 * 16 + 8px;
+    }
+
+    .f2 {
+        font-size: 1.333rem;
+        line-height: 1.333 * 16 + 8px;
+    }
+
+    .f3 {
+        font-size: 1rem;
+        line-height: 1 * 16 + 8px;
+    }
+
+    .f4 {
+        font-size: 0.75rem;
+        line-height: 0.75 * 16 + 8px;
+    }
+}
