@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="43px" viewBox="0 0 24 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>dollar-sign</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="landing-page-alt" transform="translate(-257.000000, -1173.000000)" stroke="#000000" stroke-width="2">
+            <g id="detail" transform="translate(240.000000, 842.000000)">
+                <g id="pricing" transform="translate(18.000000, 332.000000)">
+                    <g id="dollar-sign">
+                        <path d="M11,0 L11,41" id="Shape"></path>
+                        <path d="M20.1666667,7.45454545 L6.41666667,7.45454545 C2.87283952,7.45454545 -8.8817842e-16,10.3748699 -8.8817842e-16,13.9772727 C-8.8817842e-16,17.5796755 2.87283952,20.5 6.41666667,20.5 L15.5833333,20.5 C19.1271604,20.5000001 21.9999999,23.4203245 21.9999999,27.0227273 C21.9999999,30.62513 19.1271604,33.5454545 15.5833333,33.5454545 L-8.8817842e-16,33.5454545" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

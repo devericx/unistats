@@ -6,18 +6,6 @@ html {
     border: 1px black solid;
 }
 
-.ma0 {
-    margin: 0;
-}
-
-.mb-small {
-    margin-bottom: 0.125rem;
-}
-
-.mb-med {
-    margin-bottom: 0.25rem;
-}
-
 .ml-auto {
     margin-left: auto;
 }
@@ -33,7 +21,7 @@ html {
 
 .nav {
     width: 100%;
-    margin: 1rem 0 6rem 0;
+    margin: 1rem 0 3rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -61,7 +49,7 @@ html {
 }
 
 .row {
-    margin: 0 0 2rem 0;
+    margin: 0 0 3rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -70,6 +58,10 @@ html {
     -ms-flex-direction: column;
     flex-direction: column;
     align-items: center;
+}
+
+.row:first-of-type {
+    margin-bottom: 3rem;
 }
 
 .block {
@@ -118,14 +110,51 @@ html {
     }
 }
 
+.detail {
+    display: flex;
+    flex-direction: column;
+    max-width: 452px;
+    margin-bottom: 3rem;
+
+    .block {
+        margin: 0;
+    }
+}
+
+.detail:nth-child(even) {
+    margin-bottom: 0;
+}
+
+.detailIcon {
+    min-width: 40px;
+    max-height: 40px;
+    margin: 0 1.25rem 1rem 0;
+}
+
 .toggle {
     text-align: right;
-    margin: 2em 0 0 0;
+    margin: 2rem 0 0 0;
 }
 
 .toggle:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+.ma0 {
+    margin: 0;
+}
+
+.mb-small {
+    margin-bottom: 0.125rem;
+}
+
+.mb-med {
+    margin-bottom: 0.25rem;
+}
+
+.mb-large {
+    margin-bottom: 4rem;
 }
 
 @media screen and (min-width: 720px) {
@@ -143,23 +172,36 @@ html {
         min-width: 468px;
     }
 
-    .row {
-        margin: 0 0 4.5rem 0;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    .block {
-        margin: 0 2.5rem 3rem 0;
-    }
-
-    .profile {
-        padding: 40px 40px 35px;
-        max-width: 468px;
+    .detail {
+        margin: 0;
     }
 
     .row {
         margin: 0 0 3rem 0;
+    }
+
+    .mb-large {
+        margin-bottom: 6rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .profile {
+        padding: 40px 40px 35px;
+        margin-left: 2.5rem;
+        max-width: 468px;
+    }
+
+    .detail {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .detail:nth-child(odd) {
+        margin-right: 2.5rem;
+    }
+
+    .row {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -170,6 +212,6 @@ html {
 
 @media screen and (min-width: 1064px) {
     .nav {
-        margin: 5rem 0 6rem 0;
+        margin: 3rem 0 6rem 0;
     }
 }

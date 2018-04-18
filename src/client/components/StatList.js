@@ -9,7 +9,7 @@ class StatList extends Component {
     const list = [];
 
     for (let i = 0; i < this.props.list.length; i++) {
-      list.push(<p className="f4 mb-med" key={i}>
+      list.push(<p className="f-small mb-med" key={i}>
         {this.props.list[i]}
                 </p>);
     }
@@ -20,7 +20,7 @@ class StatList extends Component {
   render() {
     return (
       <div className="stat">
-        <h3 className="f4 grey mb-small">{this.props.header}</h3>
+        <h3 className="f-small grey mb-small">{this.props.header}</h3>
         {this.createList()}
       </div>
     );

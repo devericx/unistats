@@ -57,6 +57,11 @@ h2:first-of-type {
     line-height: 0.563 * 16 + 8px;
 }
 
+.f-small {
+    font-size: 0.75rem;
+    line-height: 0.75 * 16 + 8px;
+}
+
 @media screen and (min-width: 720px) {
     .f1 {
         font-size: 1.777rem;

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="36px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>users</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="landing-page-alt" transform="translate(-731.000000, -845.000000)" stroke="#000000" stroke-width="2">
+            <g id="detail" transform="translate(240.000000, 842.000000)">
+                <g id="not-just-numbers" transform="translate(492.000000, 0.000000)">
+                    <g id="users" transform="translate(0.000000, 4.000000)">
+                        <path d="M29.8181818,34 L29.8181818,30.2222222 C29.8181818,26.0494041 26.4806681,22.6666667 22.3636364,22.6666667 L7.45454545,22.6666667 C3.33751368,22.6666667 4.138104e-16,26.0494041 0,30.2222222 L0,34" id="Shape"></path>
+                        <ellipse id="Oval" cx="14.9090909" cy="7.55555556" rx="7.45454545" ry="7.55555556"></ellipse>
+                        <path d="M41,34 L41,30.2222222 C40.997466,26.7790002 38.6984068,23.773027 35.4090909,22.9122222" id="Shape"></path>
+                        <path d="M27.9545455,0.245555556 C31.2530231,1.10154293 33.5600715,4.11398328 33.5600715,7.565 C33.5600715,11.0160167 31.2530231,14.0284571 27.9545455,14.8844444" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

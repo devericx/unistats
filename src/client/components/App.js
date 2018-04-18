@@ -6,13 +6,19 @@ import Block from './Block';
 import Profile from './Profile';
 import Stat from './Stat';
 import StatTable from './StatTable';
+import Detail from './Detail';
+
+import SettingsIcon from '../res/settings.svg';
+import UsersIcon from '../res/users.svg';
+import MapIcon from '../res/map.svg';
+import DollarIcon from '../res/dollar-sign.svg';
 
 class App extends Component {
   render() {
     return (
       <div className="container">
         <Nav />
-        <div className="row">
+        <div className="row mb-large">
           <Block header="Delivering the holistic profiles of real past college applicants.">
             <p className="f2 grey">
               College admissions are getting increasingly competitive by the year. Understand what
@@ -64,6 +70,41 @@ class App extends Component {
             other="If you’re going into STEM go for very high achievements in STEM competitions while also making sure you have top leadership positions (ie president) in order to have a chance at HYPSM schools. Of course, don’t be so focused on prestige like I was because there are plenty of other schools out there that will be a good fit for you!"
             special="n/a"
           />
+        </div>
+        <div className="row">
+          <Detail header="How it works" icon={<SettingsIcon />}>
+            <p className="f2 grey">
+              Hundreds of students submit their college results every year onto sites like
+              CollegeConfidential and Reddit.
+            </p>
+            <p className="f2 grey">
+              We gather these profiles, organize them, and deliver them to your inbox in a clean,
+              readable format.
+            </p>
+          </Detail>
+          <Detail header="Not just the numbers" icon={<UsersIcon />}>
+            <p className="f2 grey">Perfect GPAs and SATs just aren’t cutting it anymore.</p>
+            <p className="f2 grey">
+              Extracurriculars, volunteering, awards, and essays are increasingly becoming key
+              factors in competitive college admissions. Which is why our profiles tell the whole
+              story.
+            </p>
+          </Detail>
+        </div>
+        <div className="row">
+          <Detail header="Pricing" icon={<DollarIcon />}>
+            <p className="f2 grey">Your first 2 profiles are free.</p>
+            <p className="f2 grey">Each additional profile will amount to $4.99 each.</p>
+          </Detail>
+          <Detail header="Roadmap" icon={<MapIcon />}>
+            <p className="f2 grey">
+              Currently, Unistats will deliver profiles directly to your inbox.
+            </p>
+            <p className="f2 grey">
+              However, a full-fledged web application is under development, estimated to be
+              available in the next several months. Be sure to check your emails!
+            </p>
+          </Detail>
         </div>
       </div>
     );
