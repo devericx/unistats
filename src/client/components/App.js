@@ -7,6 +7,7 @@ import Profile from './Profile';
 import Stat from './Stat';
 import StatTable from './StatTable';
 import Detail from './Detail';
+import Email from './Email';
 
 import SettingsIcon from '../res/settings.svg';
 import UsersIcon from '../res/users.svg';
@@ -24,7 +25,8 @@ class App extends Component {
               College admissions are getting increasingly competitive by the year. Understand what
               it takes to be admitted.
             </p>
-            <p className="f2 grey">Receive your first 2 profiles, free.</p>
+            <p className="f2 grey mb-2">Receive your first 2 profiles, free.</p>
+            <Email action="" className="mt-1" />
           </Block>
           <Profile
             header="Asian male from GA"
@@ -79,7 +81,7 @@ class App extends Component {
             </p>
             <p className="f2 grey">
               We gather these profiles, organize them, and deliver them to your inbox in a clean,
-              readable format.
+              readable format upon your request.
             </p>
           </Detail>
           <Detail header="Not just the numbers" icon={<UsersIcon />}>
@@ -102,9 +104,13 @@ class App extends Component {
             </p>
             <p className="f2 grey">
               However, a full-fledged web application is under development, estimated to be
-              available in the next several months. Be sure to check your emails!
+              available in the next several months. Regular updates will be sent via email.
             </p>
           </Detail>
+        </div>
+        <div className="row" id="cta">
+          <h2 className="f1">Receive your first 2 profiles, free.</h2>
+          <Email action="" />
         </div>
       </div>
     );

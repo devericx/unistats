@@ -57,6 +57,8 @@ html {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -67,7 +69,7 @@ html {
 .block {
     margin: 0 0 2rem 0;
     p:last-of-type {
-        margin: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -81,7 +83,6 @@ html {
 .stat {
     width: 100%;
     margin: 0 0 1rem 0;
-
     p:last-of-type {
         margin: 0;
     }
@@ -91,19 +92,15 @@ html {
     padding: 0;
     border-spacing: 0;
     border-collapse: collapse;
-
     tr {
         padding: 0;
-
         td {
             padding: 0;
             margin: 0;
         }
-
         td:first-of-type {
             width: 6rem;
         }
-
         td:nth-of-type(2) {
             width: 8rem;
         }
@@ -111,11 +108,16 @@ html {
 }
 
 .detail {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    width: 100%;
     max-width: 452px;
     margin-bottom: 3rem;
-
     .block {
         margin: 0;
     }
@@ -141,8 +143,74 @@ html {
     text-decoration: underline;
 }
 
+.emailBox {
+    border: 1px #d4d4d4 solid;
+    padding: 4px 2px 4px 3px;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 2.1rem;
+}
+
+.email {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    padding-left: 0.75rem;
+}
+
+.email::placeholder {
+    font-size: 1rem;
+}
+
+.emailButton {
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.7rem 1.1rem;
+    font-size: 0.75rem;
+    border: none;
+}
+
+input[type='submit']:hover {
+    cursor: pointer;
+}
+
+#cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    .f1 {
+        margin-bottom: 1.5rem;
+    }
+    .emailBox {
+        width: 100%;
+        max-width: 540px;
+    }
+}
+
 .ma0 {
     margin: 0;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
 }
 
 .mb-small {
@@ -161,27 +229,23 @@ html {
     html {
         padding: 2rem;
     }
-
     #navItems {
         h3:last-of-type {
             margin-left: 4rem;
         }
     }
-
     .profile {
         min-width: 468px;
     }
-
-    .detail {
-        margin: 0;
-    }
-
     .row {
         margin: 0 0 3rem 0;
     }
-
     .mb-large {
         margin-bottom: 6rem;
+    }
+    .emailButton {
+        font-size: 1rem;
+        padding: 0.55rem 1.1rem;
     }
 }
 
@@ -191,21 +255,25 @@ html {
         margin-left: 2.5rem;
         max-width: 468px;
     }
-
     .detail {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
         flex-direction: row;
     }
-
     .detail:nth-child(odd) {
         margin-right: 2.5rem;
     }
-
     .row {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
         align-items: flex-start;
     }
 }
