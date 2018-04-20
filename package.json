@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/server/index.js",
+    "start": "node src/server/index.js",
+    "server": "nodemon src/server/index.js",
     "build": "./node_modules/.bin/webpack -w",
-    "dev": "concurrently --kill-others-on-fail \"npm run build\" \"npm run start\"",
+    "dev": "concurrently --kill-others-on-fail \"npm run build\" \"npm run server\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

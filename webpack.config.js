@@ -5,7 +5,7 @@ const BUILD_DIR = path.resolve(__dirname, './build');
 const APP_DIR = path.resolve(__dirname, './src/client');
 
 const config = {
-  mode: 'development',
+  mode: 'production',
   entry: {
     main: `${APP_DIR}/index.js`,
   },
