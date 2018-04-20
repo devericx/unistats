@@ -26,7 +26,7 @@ class App extends Component {
               it takes to be admitted.
             </p>
             <p className="f2 grey mb-2">Receive your first 2 profiles, free.</p>
-            <Email action="" className="mt-1" />
+            <Email className="mt-1" />
           </Block>
           <Profile
             header="Asian male from GA"
@@ -110,7 +110,7 @@ class App extends Component {
         </div>
         <div className="row" id="cta">
           <h2 className="f1">Receive your first 2 profiles, free.</h2>
-          <Email action="" />
+          <Email />
         </div>
       </div>
     );
