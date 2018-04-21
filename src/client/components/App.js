@@ -22,8 +22,8 @@ class App extends Component {
         <div className="row mb-large">
           <Block header="Understand what it takes to be admitted to the top universities.">
             <p className="f2 grey">
-              Misinformation on what colleges look for is commonplace. We organize and deliver the
-              real profiles of real students straight to your inbox upon your request.
+              Misinformation on what colleges look for is everywhere. We organize and deliver the
+              real profiles of real past college applicants, straight to your inbox.
             </p>
             <p className="f2 grey mb-2">Receive your first 2 profiles, free.</p>
             <Email className="mt-1" />
