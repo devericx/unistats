@@ -21,9 +21,10 @@ class App extends Component {
         <Nav />
         <div className="row mb-large">
           <Block header="Understand what it takes to be admitted to the top universities.">
+            <p className="f2 grey">Misinformation on what colleges look for is everywhere.</p>
             <p className="f2 grey">
-              Misinformation on what colleges look for is everywhere. We organize and deliver the
-              real profiles of real past college applicants, straight to your inbox.
+              We organize and deliver the real profiles of real past college applicants, straight to
+              your inbox.
             </p>
             <p className="f2 grey mb-2">Receive your first 2 profiles, free.</p>
             <Email className="mt-1" />
