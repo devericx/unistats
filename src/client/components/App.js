@@ -20,10 +20,10 @@ class App extends Component {
       <div className="container">
         <Nav />
         <div className="row mb-large">
-          <Block header="Delivering the holistic profiles of real past college applicants.">
+          <Block header="Understand what it takes to be admitted to the top universities.">
             <p className="f2 grey">
-              College admissions are getting increasingly competitive by the year. Understand what
-              it takes to be admitted.
+              Misinformation on what colleges look for is commonplace. We organize and deliver the
+              real profiles of real students straight to your inbox upon your request.
             </p>
             <p className="f2 grey mb-2">Receive your first 2 profiles, free.</p>
             <Email className="mt-1" />
@@ -65,46 +65,53 @@ class App extends Component {
               'Utah State Math Contest 3rd Place (9)',
               'Science Olympiad Medals (Local & State level) (9-12)',
             ]}
-            essays="n/a"
-            recs="n/a"
-            interviews="n/a"
+            essays={
+              'I liked my Common App essay a decent amount and was told that it was "beautiful", but I procrastinated a lot on my supplements and my USC ones ended up having a typo and probably some grammatical errors while my Scripps ones were really cheesy and not great.'
+            }
+            recs="3 (+ the one from my counselor); one is general from an English teacher who loved me, one is from my current Psych teacher and previous cheer coach, and the other is from my Latin teacher about Classics"
+            interviews="Interviewed with Princeton, Kenyon, Dartmouth, Cornell, Harvard, Vanderbilt, UPenn, WUSTL (on-campus). I think they all went pretty well, especially my Kenyon, Dartmouth, and Vanderbilt interviews. I know everyone (including the interviewers) says interviews don't matter, but doing well can't hurt."
             hooks="n/a"
             other="If you’re going into STEM go for very high achievements in STEM competitions while also making sure you have top leadership positions (ie president) in order to have a chance at HYPSM schools. Of course, don’t be so focused on prestige like I was because there are plenty of other schools out there that will be a good fit for you!"
             special="n/a"
           />
         </div>
-        <div className="row">
+        <div className="row" id="about">
           <Detail header="How it works" icon={<SettingsIcon />}>
             <p className="f2 grey">
               Hundreds of students submit their college results every year onto sites like
               CollegeConfidential and Reddit.
             </p>
             <p className="f2 grey">
-              We gather these profiles, organize them, and deliver them to your inbox in a clean,
-              readable format upon your request.
+              You send us a request via email specifying the college/university you're interested
+              in, and the number of profiles you desire.
+            </p>
+            <p className="f2 grey">
+              We gather and deliver them to your inbox in a clean, readable format.
             </p>
           </Detail>
           <Detail header="Not just the numbers" icon={<UsersIcon />}>
             <p className="f2 grey">Perfect GPAs and SATs just aren’t cutting it anymore.</p>
             <p className="f2 grey">
               Extracurriculars, volunteering, awards, and essays are increasingly becoming key
-              factors in competitive college admissions. Which is why our profiles tell the whole
-              story.
+              factors in competitive college admissions. See exactly what extracurriculars and what
+              awards successful students acquired.
             </p>
           </Detail>
         </div>
         <div className="row">
           <Detail header="Pricing" icon={<DollarIcon />}>
             <p className="f2 grey">Your first 2 profiles are free.</p>
-            <p className="f2 grey">Each additional profile will amount to $4.99 each.</p>
+            <p className="f2 grey">
+              Each additional profile will amount to <span className="bold">$2.49</span> each.
+            </p>
           </Detail>
           <Detail header="Roadmap" icon={<MapIcon />}>
             <p className="f2 grey">
               Currently, Unistats will deliver profiles directly to your inbox.
             </p>
             <p className="f2 grey">
-              However, a full-fledged web application is under development, estimated to be
-              available in the next several months. Regular updates will be sent via email.
+              However, a web application is under development, estimated to be available in the next
+              several months. Regular updates will be sent via email.
             </p>
           </Detail>
         </div>
