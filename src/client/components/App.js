@@ -23,7 +23,7 @@ class App extends Component {
           <Block header="Understand what it takes to be admitted to the top universities.">
             <p className="f2 grey">Misinformation on what colleges look for is everywhere.</p>
             <p className="f2 grey">
-              We organize and deliver the real profiles of real past college applicants, straight to
+              We curate and deliver the real profiles of real past college applicants, straight to
               your inbox.
             </p>
             <p className="f2 grey mb-2">Receive your first 2 profiles, free.</p>
@@ -103,7 +103,7 @@ class App extends Component {
           <Detail header="Pricing" icon={<DollarIcon />}>
             <p className="f2 grey">Your first 2 profiles are free.</p>
             <p className="f2 grey">
-              Each additional profile will amount to <span className="bold">$2.49</span> each.
+              Each additional profile will amount to a flat rate of <span className="bold">$10</span> each.
             </p>
           </Detail>
           <Detail header="Roadmap" icon={<MapIcon />}>
